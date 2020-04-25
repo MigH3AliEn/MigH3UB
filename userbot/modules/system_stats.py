@@ -64,7 +64,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) \
             + str(stderr.decode().strip())
 
-        await event.edit("`Userbot Version: "
+        await event.edit("`MigH3UB Version: "
                          f"{verout}"
                          "` \n"
                          "`Revision: "

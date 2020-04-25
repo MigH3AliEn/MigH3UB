@@ -40,7 +40,7 @@ async def sleepybot(time):
         await time.reply("Syntax: `.sleep [seconds]`")
     else:
         counter = int(time.pattern_match.group(1))
-        await time.edit("`I am sulking and snoozing....`")
+        await time.edit("`MigH3BOT ghumaitasey!....`")
         await sleep(2)
         if BOTLOG:
             await time.client.send_message(
@@ -48,13 +48,13 @@ async def sleepybot(time):
                 "You put the bot to sleep for " + str(counter) + " seconds",
             )
         await sleep(counter)
-        await time.edit("`OK, I'm awake now.`")
+        await time.edit("`Huuuuuuuhaaa!!! uthsi Bhaiya...`")
 
 
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("`Goodbye *Windows XP shutdown sound*....`")
+    await event.edit("`Goodbye *Salut from MigH3BOT*....`")
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#SHUTDOWN \n"
                                         "Bot shut down")
@@ -63,7 +63,7 @@ async def killdabot(event):
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`BRB... *PornHub intro*`")
+    await event.edit("`Nobody... Nobody... *Nobody Does It Better!!!`")
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#RESTART \n"
                                         "Bot Restarted")

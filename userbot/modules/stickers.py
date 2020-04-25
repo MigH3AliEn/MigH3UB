@@ -18,22 +18,22 @@ from telethon.tl.functions.messages import GetStickerSetRequest
 from telethon.tl.types import InputStickerSetID
 from telethon.tl.types import DocumentAttributeSticker
 
-PACK_FULL = "Whoa! That's probably enough stickers for one pack, give it a break. \
-A pack can't have more than 120 stickers at the moment."
+PACK_FULL = "Ohho! Ekta pack er jonno etogulo sticker enough, ektu opekkha koren! \
+ekhon ekta pack e 120 tar beshi sticker rakha somvob nah..."
 
 KANGING_STR = [
-    "Using Witchery to kang this sticker...",
-    "Plagiarising hehe...",
-    "Inviting this sticker over to my pack...",
-    "Kanging this sticker...",
-    "Hey that's a nice sticker!\nMind if I kang?!..",
-    "hehe me stel ur stikér\nhehe.",
-    "Ay look over there (☉｡☉)!→\nWhile I kang this...",
-    "Roses are red violets are blue, kanging this sticker so my pacc looks cool",
-    "Imprisoning this sticker...",
-    "Mr.Steal Your Sticker is stealing this sticker... ",
-    "Imma Kanger...",
-    "Owner of this stiker got rekt",
+    "Oi Dekha Jaay baal gach, oi aamader gaa,\n oikhane te bash dhukay kana bogir maa!",
+    "Sticker er sunday monday kuloj kortachi......",
+    "Asho mama hey, aamar Kang pack e!",
+    "Sticker er maarebaap!\n khayalaitassi vaya!",
+    "Aah Josh Sticker..,\n Khaya Dei Ki Kos!!??",
+    "ame tamar stecker keye dissi bai tamar kuno poblem ase??",
+    "Aaisshalaar! Ki sundor! (☉｡☉)!→\nKhaya Ditesi Mind Koirenna...",
+    "Shhhh! Kang Kortasi aami....",
+    "Ei Sticker er mairebaap! Aamar tore lagbo!...",
+    "Ki Khobor Bondhura?\n Aami Repon Video!",
+    "Sticker er haat ta ektu dekhbo...(in Habu Bhai voice!)",
+    "Shit! Shit! Shit! eei sticker aamar chai.....",
 ]
 
 
@@ -77,10 +77,10 @@ async def kang(args):
             is_anim = True
             photo = 1
         else:
-            await args.edit("`Unsupported File!`")
+            await args.edit("`Unsupported baal!`")
             return
     else:
-        await args.edit("`I can't kang that...`")
+        await args.edit("`Eidare Kang Korbaar Parum na...`")
         return
 
     if photo:
@@ -172,8 +172,8 @@ async def kang(args):
                         await conv.get_response()
                         # Ensure user doesn't get spamming notifications
                         await bot.send_read_acknowledge(conv.chat_id)
-                        await args.edit(f"`Haha, yes. New kang pack unlocked!\
-                            \nPack can be found [here](t.me/addstickers/{packname})",
+                        await args.edit(f"`Haha, yes. Notun kang pack unlocked!\
+                            \nPack paiba [eikhane](t.me/addstickers/{packname})",
                                         parse_mode='md')
                         return
                 if is_anim:
@@ -241,8 +241,8 @@ async def kang(args):
                 # Ensure user doesn't get spamming notifications
                 await bot.send_read_acknowledge(conv.chat_id)
 
-        await args.edit(f"`Sticker kanged successfully!`\
-            \nPack can be found [here](t.me/addstickers/{packname})",
+        await args.edit(f"`ooooooooooof mammmmah aguuuuuuuuun Speed e Kang Koiralaisi......`\
+            \nPack paiba [eikhane](t.me/addstickers/{packname})",
                         parse_mode='md')
 
 

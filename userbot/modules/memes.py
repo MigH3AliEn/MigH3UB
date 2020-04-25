@@ -31,11 +31,11 @@ METOOSTR = [
 ]
 NOOBSTR = [
     "`You Noob don't mess with Me!`",
-    "`Noob Boi trying to be Famous Lol`",
+    "`Noob Boi trying to be Famous kek`",
     "`Some Nibbas need to open their small minds instead of their Big Mouths`",
     "`Ah! you don't me, stay away Noob`",
     "`I only talk with Pros. You better go away!`",
-    "`Itna bada Noobda dekhlia ab to marna hoga`",
+    "`Vairevai koto boro nOoB tumi?`",
     "`You're a Noob and You won't get that !`",
 ]
 ZALG_LIST = [[
@@ -391,6 +391,29 @@ RUNS_STR = [
     "Running a marathon...there's an app for that.",
 ]
 
+ABUSE_STRINGS = [
+    "Tor Maar Heda Bainchod..",
+    "Tui Ekta Khankirpola",
+    "Tor Bou re chuida khaal koira dimu notir pola!!",
+    "আউরা মাগীর জাউরা পোলা\nতোর মারে চুদতে আমার লাগে না যে বালা\nতোর মায়ের ভোদা কেন এতো কালা?",
+    "ওই হ্যাডা কালা ভুস্কি মাগীর পোলা, তোর বেশ্যা জাতের মায়েরে আমি চুদি!",
+    "তর মায়েরে চিচিং ফাক..",
+    "কান্দে ফালাইয়া তর মায়েরে চুদি...",
+    "Tor Bouer voda shirish kagoj diya doila dimu...",
+    "আকাশ চুদেছি, পাতাল চুদেছি\nচুদেছি সুয়েজ খাল,\nআরও চুদেছি যমুনা নদী\nতুই কোন চ্যাটের বাল?",
+    "Baal falaya aati baan!",
+    "Tou bouer baal falaya khaal e naamaya chudmu....",
+    "ময়না চুদে ডালে ডালে, ব্যাঙ চুদে খালে,\nবুড়া বুড়ী চুদতে গেলে গিট্টু লাগে বালে।\nকুকুর চুদে, গরু চুদে, চুদে মাঝির পাল,\nতুই শালা চুদতে গেলে আগেই পরে মাল!",
+    "খানকির ছেলে খান বাহাদুর\nতোর মাকে চুদে গেল নেংটি ইদুর!",
+    "তোর মায়রে উজির নাজির বর্গি ঠগি দিয়া চুদামু বেশ্যা মাগীর আবাল পোলা।",
+    "কোটাল পুত্রের বইনের পাটা পুতা দিয়া তোর বিচি থেঁতলে পুটকির ছেঁদা দিয়ে সেই পাটা পুতা হান্দামু খানকির পোলা।",
+    "তোর বৌয়ের ভোদায় মাগুর মাছ চাষ করুম।",
+    "এই খানকির পোলাদের বাপের কান্ধে খাড়াইয়া তাগো মায়রে চুদি।",
+    "ঠ্যাঁঙ কাইট্টা পুটকি দা ভইরা দুম!",
+    "তর পুটকিত ধান ছড়াইয়া চড়ুই দিয়া খাওয়ামু",
+]
+
+
 CHASE_STR = [
     "Where do you think you're going?",
     "Huh? what? did they get away?",
@@ -489,109 +512,33 @@ SHGS = [
     r"¯\_(⊙_ʖ⊙)_/¯",
     r"¯\_༼ ಥ ‿ ಥ ༽_/¯",
     "乁( ⁰͡  Ĺ̯ ⁰͡ ) ㄏ",
-]
-
-RAPE_STRINGS = [
-     "`Rape Done Drink The Cum`",
-     "`The user has been successfully raped`",
-     "`Dekho Bhaiyya esa hai! Izzat bachailo apni warna Gaand maar lenge tumhari`",
-     "`Relax your Rear, ders nothing to fear,The Rape train is finally here`",
-     "`Rape coming... Raped! haha 😆`",
-     "`Kitni baar Rape krvyega mujhse?`",
-     "`Don't rape too much BOSSdk, else problem....`",
-     "`Rape krdunga pata bhi nahi chalega`",
-     "`Doing Rape isn't a Good Thing Senpai !`",
-     "`Lodu Andha hai kya Yaha tera rape ho raha hai aur tu abhi tak yahi gaand mara raha hai lulz`",
 ] 
 
-ABUSE_STRINGS = [
-       "`Madharchod`",
-	   "`Gaandu`",
-       "`Bhag Randike`",
-	   "`Chutiya he reh jayega`",
-	   "`Ja be Gaandu`",
-	   "`Ma ka Bharosa madharchod`",
-	   "`mml`",
-	   "`You MotherFeker`",
-	   "`Muh Me Lega Bhosdike ?`",
-	   "`Kro Gandu giri kam nhi toh Gand Maar lenge tumhari hum😂`",
-       "`Suno Lodu Jyda muh na chalo be muh me lawda pel Diyaa jayega`",
-       "`Nikal Lode, pehli fursta me nikal`",       
-       "`Taali bajao Lawde ke liye`",
-]
-
 GEY_STRINGS = [
-     "`you gey bsdk`",
+     "`you gey bainchod`",
      "`you gey`",
      "`you gey in the house`",
-     "`you chakka`",
-     "`Bhago BC! Chakka aya`",
+     "`you hizla`",
+     "`Bhago BC! hizla aasche`",
      "`you gey gey gey gey gey gey gey gey`",
      "`you gey go away`",
      "`Such Gay personality !`",
-     "`Me chakko se baat nhi krta`",
-     "`There is no difference between You and Manjul Khattar`",
+     "`Aami Hizla der loge kotha koi na`",
+     "`There is no difference between You and Obaydul Kader`",
 ]
 
 PRO_STRINGS = [
      "`This gey is pro as phack.`",
      "`Pros here -_- Time to Leave`",
      "`Proness Level: 6969696969`",
-     "`Itna pro banda dekhlia bc, ab to marna hoga.`",
+     "`Aarishalar ki pRo re bAbA! OOOOOOOOOOOOOOOOOOOOOOOOF`",
      "`U iz pro but i iz ur DAD, KeK`",
-     "`What are you Bsdk? Human or Gawd(+_+)`",
-     "`Aye pro,ek baat yaad rakhna, Agar Bharosa khud par ho to ksi ki chut tumhari kamzori nahi bnskti.`",
+     "`What are you bainchod? Human or Gawd(+_+)`",
+     "`Ei Pro, hun, Tui tor kaaj kore jaa, guder raja hobi tui, ashol purush!`",
      "`I smell a Pro Guy around me!`",
-     "`You're as pro as Durov`",
+     "`You're as pro as MigH3`",
 ]
 
-ABUSEHARD_STRING = [
-	"`Madarchod Randi ke bacche.Oye bosdike madarchod bhen ke lode tere gand me lohe ka danda garam karke dalu randwe tujhetho gali ke kutte gand pe chut rakh ke katenge me bata raha hu tere lode pe madhu makkhi Katelode ke ando pe Road roller chale tu kab bathroom me muthne Jaye tho Tera loda ghir Jaye fir tere ando me se lizard ke bacche nikle teko kidnap Kare aur childporn banaye maa ke chuttad ke lode tere saat Johnny sins rape Kare aur jab wo teko anal de tab loda andar fas Jaye bkl tere jhaat pe waxing karunga me dhek lio fir jab tu chillayega na tab tere muh me Mai gai ka gobar dalunga sale tere gand ke balo pe tel laga ke jala du me teko Anaconda leke gand me dalu tho muh se nikle maa ke lode hamesha chutiyo jaisa bartav kartha he tu maa ke Dai chawal drugs tere gand Me dalunga thi tatti nahi nikle maa darchod kabhi teko Marne ka mouka mil gaya na tho bas I'll do my best to get that tatti outof you aur tere jaise chutio ko is duniya me jagaha bhi nahi maa ke lode bandarchod tere gand me chitiya Kate wo bhi bullet ants maadarchod samj nahi aaraha tere baap NE teko kya khake paida kiya Tha kesa chutiya he tu rand ke bacche teko shadi me khana khane na mile teko gand pe 4 thappad mare sab log aur blade se likhe I want anal madarchod bosdike maccharki tatte ke baal chutiye maa ke chut pe ghode ka Lund tere gand me jaltha hu koila Dale bhen ke lode MAA KI CHUT MAI TALWAR DUNGA BC CHUT FAT JAEGI AUR USME SE ITNA KHOON NIKLEGA MZA AJAEGA DEKHNE KA SALE MAA KE BHOSDE SE BAHR AJA FIR BAAP SE ZUBAN DA TERI MAA KI CHUT CHOD CHOD KE BHOSDABNADU MADARCHOD AUR USKE UPAR CENENT LAGADU KI TERE JESA GANDU INSAAN KABHI BAHR NA A SKE ESI GANDI CHUT MAI SE LODA LASUN MADRCHOD TERI MAA KI CHUT GASTI AMA KA CHUTIA BACHA TERI MAA KO CHOD CHOD K PAGAL KAR DUNGA MAA K LODY KISI SASTIII RANDII K BACHY TERI MAA KI CHOOT MAIN TEER MAARUN GANDU HARAMI TERI COLLEGE JATI BAJI KA ROAD PEY RAPE KARONGANDU KI OLAAD HARAM KI NASAL PAPA HUN TERA BHEN PESH KAR AB PAPA KO TERI MAA KKALE KUSS MAIN KIS`",
-	"`Main roz teri behno ki banjar chut me apna lawda daalke andar haryali lata tha magar aaj unke ke baare me sunke mujhe bhut afsos huwa..ki unko ab bada loudha chahye..ab mera balatkaaari lawda lagataar 4 ghante tk apne muh me kon rakhega..vo teri behne hi thi jo apni kaali magar rasilli chut mere saamne khol deti aur zameen pe naagin ki tarah rengne lgti thi jaise ki kisine unki chut pe naariyal tod diya ho vo b bada wala mumbai ka naariyal..apni chennal maa ko b nhi bhej rahe mere paas to main kaixe tum logo se vaada karu ki main teri maa chodd dungaw..ab agar tun sach me chahta hai ki main tum dono k mc ki chut me dhammal karu to mera lawda apne muh me rakho aur kaho Sameer hamare sage papa hain... Aur agar tb b the apni maa ki kaali chut mere saamne nahi rakhi to tumhare ghar me ghuske tumhari maa ka balatkaar kar dungaw jaixe delhi me huwa tha...ab teri chudi hui kuttiyo ki tarah apni gaand hilaate hue mere aage kalapna mt ni to tumhari fatti bhoxdi me 100 ched karunga`",
-	"`Taare hai Asmaan me very very bright jaat na jla bskd dekh le apni hight.`",
-        "`Zindagi ki na toote lari iski lulli hoti nhi khadi`",
-        "`Kbhi kbhi meri dil me khyaal ata hai ayse chutiyo ko kon paida kr jata hai😂.`",
-        "`Saawan ka mahina pawan kare shor jake gand mara bskd kahi aur.`", 
-        "`Dil ke armaa ansuon me beh jaye tum bskd ke chutiye hi reh gye.`",
-        "`Ishq Se Tabiyat Ne Zeest Ka Mazaa aya maine is lodu ko randi khane me paya.`",
-        "`Mirza galib ki yeh khani hai tu bhosdika hai yeh sab ki jubani hai.`",
-	"`Mashoor Rand, Ne Arz Kiya Hai. Aane Wale Aate Hai, Jaane Wale Jaate Hai. Yaade Bas Unki Reh Jaati Hai, Jo G**Nd Sujaa Ke Jaate Hai`",
-        "`Pani kam hai matke me gand marlunga jhatke me.`",
-        "`Aand kitne bhi bade ho, lund ke niche hi rehte hai`",
-        "`Tum Ameer hum gareeb hum jhopdiwale Tum bhosiwale`",
-        "`Sisi Bhari Gulab ki padi palang ke pass chodne wale chod gye ab q baitha udaas`",
-        "`Phuloo Ka Raja Gulaab Kaato me Rehta hai Jeewan ka Nirmata jaato me rehta hai😂`",
-        "`Chude hue maal ko yaad mt krna Jo Chut na de usse kabhi friyad mt karna jise chudna hai wo chud ke rhegi bekar me muth maar ke apni jindagi barbaad mt krna`",
-        "`Gand mare gandu Chut mare Chutiya Sabse accha mutti 2 mint me chutti😛`",
-        "`Marzi Ka Sex Pap Nahi Hota.. Piche Se Dalne Wala Kabhi Baap Nahi Hota.. Condom Zarur Lagana Mere Dost Qki.. Sex K Waqt Popat Ke Pass Dimag Nahi Hota.`",
-        "`Uss Ne Hothon Se Chhu Kar Lowd* Pe Nasha Kar Diya; Lu*D Ki Baat To Aur Thi, Uss Ne To Jhato* Ko Bhi Khada Kar Diya!`",
-        "`Mashoor Rand, Ne Arz Kiya Hai. Aane Wale Aate Hai, Jaane Wale Jaate Hai. Yaade Bas Unki Reh Jaati Hai, Jo G**Nd Sujaa Ke Jaate Hai`",
-     "`Pani kam hai matkey me ga*d mardunga teri ek jatke me`",
-     "`Aand kitne bhi bade ho, lund ke niche hi rehte hai`",
-     "`Tum Ameer hum gareeb hum jhopdiwale Tum bhosiwale`",
-     "`Sisi Bhari Gulab ki padi palang ke pass chodne wale chod gye ab q baitha udaas`",
-     "`Phuloo Ka Raja Gulaab Kaato me Rehta hai Jeewan ka Nirmata jaato me rehta hai😂`",
-     "`Chude hue maal ko yaad mt krna Jo Chut na de usse kabhi friyad mt karna jise chudna hai wo chud ke rhegi bekar me muth maar ke apni jindagi barbaad mt krna`",
-     "`Gand mare gandu Chut mare Chutiya Sabse accha mutti 2 mint me chutti😛`",
-     "`Marzi Ka Sex Pap Nahi Hota.. Piche Se Dalne Wala Kabhi Baap Nahi Hota.. Condom Zarur Lagana Mere Dost Qki.. Sex K Waqt Popat Ke Pass Dimag Nahi Hota.`",
-     "`Uss Ne Hothon Se Chhu Kar Lowd* Pe Nasha Kar Diya; Lu*D Ki Baat To Aur Thi, Uss Ne To Jhato* Ko Bhi Khada Kar Diya!`",
-     "`Taare hai Asmaan me very very bright jhaat na jla bsdk dekh le apni height.`",
-     "`jindagi ki na toote lari iski lulli hoti nhi khadi`",
-     "`Kbhi kbhi meri dil me khyaal ata hai ayse chutiyo ko kon paida kr jata hai😂.`",
-     "`Saawan ka mahina pawan kare shor jake gand mara bskd kahi aur.`", 
-     "`Dil ke armaa ansuon me beh jaye tum bskd ke chutiye hi reh gye.`",
-     "`Ishq Se Tabiyat Ne Zeest Ka Mazaa aya maine is lodu ko randi khane me paya.`",
-     "`Mirza galib ki yeh khani hai tu bhosdika hai yeh sab ki jubani hai.`",
-     "`It's better to let someone think you are an Idiot than to open your mouth and prove it.`",
-   "`Talking to a liberal is like trying to explain social media to a 70 years old`",
-   "`CHAND PE HAI APUN LAWDE.`",
-   "`Pehle main tereko chakna dega, fir daru pilayega, fir jab aap dimag se nahi L*nd se sochoge, tab bolega..`",
-   "`Pardhan mantri se number liya, parliament apne ;__; baap ka hai...`",
-   "`Cachaa Ooo bhosdi wale Chacha`",
-   "`Aaisi Londiya Chodiye, L*nd Ka Aapa Khoye, Auro Se Chudi Na Ho, Biwi Wo Hi Hoye`",
-   "`Nachoo Bhosdike Nachoo`",
-   "`Jinda toh Jhaat ke Baal bhi hai`",
-]
 
 CRI = [
     "أ‿أ",
@@ -1053,6 +1000,12 @@ async def Oof(e):
         t = t[:-1] + "of"
         await e.edit(t)
 
+@register(outgoing=True, pattern="^Khela$")
+async def Khela(e):
+    t = "Khela"
+    for j in range(15):
+        t = t[:-1] + "la"
+        await e.edit(t)
 
 @register(outgoing=True, pattern="^.10iq$")
 async def iqless(e):
@@ -1150,8 +1103,18 @@ async def hacking (hacked):
     if not hacked.text[0].isalpha() and hacked.text[0] not in ("/", "#", "@", "!"):
         if await hacked.get_reply_message():
             await hacked.edit(
-                "`Targeted Account Hacked successfully 😎......`\n"
-                "`Pay Rs.69,000 to` [Spyder](https://t.me/spyderzzz/) `to Remove This Hack...`\n"
+                "`Aah Bainchoder Account Hack Koiralaitasi 😎......`\n"
+                "`Pay BDT.6,96,969 to` [MigH3AliEn](https://t.me/migh3alien/) `to Remove This Hack...`\n"
+            )
+
+@register(outgoing=True, pattern="^.fuck$")
+async def fucking (fucked):
+    """ Dont Fuck Too much -_-"""
+    if not fucked.text[0].isalpha() and fucked.text[0] not in ("/", "#", "@", "!"):
+        if await fucked.get_reply_message():
+            await fucked.edit(
+                "`Tore Chuida maal Falaitasi 😎......`\n"
+                "`Respecc My Nunnu By Giving Me a Sweet BJ...`\n"
             )
 			  
 @register(outgoing=True, pattern="^.kill$")
@@ -1160,15 +1123,9 @@ async def killing (killed):
     if not killed.text[0].isalpha() and killed.text[0] not in ("/", "#", "@", "!"):
         if await killed.get_reply_message():
             await killed.edit(
-                "`Targeted user killed by Headshot 😈......`\n"
-		        "#Sad_Reacts_Onli\n"
+                "`Targeted user killed from Headshot by BanglaWM Developed By ` [MigH3AliEn](https://t.me/migh3alien/) ` 😈......`\n"
+		        "#Tor_Ammu_k_Abbu\n" "#RIP\n" "#Fuq_U\n"
             )
-
-
-@register(outgoing=True, pattern="^.rape$")
-async def insult(e):
-    """ Don't Rape too much """
-    await e.edit(choice(RAPE_STRINGS)) 
 			  
              
 @register(outgoing=True, pattern="^.pro$")
@@ -1177,10 +1134,6 @@ async def insult(e):
     await e.edit(choice(PRO_STRINGS))
 			  
               
-@register(outgoing=True, pattern="^.abusehard$")
-async def insult(e):
-    """ Don't use these too much bsdk """
-    await e.edit(choice(ABUSEHARD_STRING))
 			  
 			  
 @register(outgoing=True, pattern="^.gey$")
@@ -1191,7 +1144,7 @@ async def insult(e):
 			  
 @register(outgoing=True, pattern="^.abuse$")
 async def insult(e):
-    """ Don't Abuse too much BSDK """
+    """ Don't Abuse too much bainchd """
     await e.edit(choice(ABUSE_STRINGS))
 
 
@@ -1266,7 +1219,7 @@ async def typewriter(typew):
     elif textx:
         message = textx.text
     else:
-        await typew.edit("`Give a text to type!`")
+        await typew.edit("`Type korar laiga Text to den bhai!`")
         return
     sleep_time = 0.03
     typing_symbol = "|"

@@ -20,7 +20,7 @@ async def tmeme(e):
     if BOTLOG:
         await e.client.send_message(
             BOTLOG_CHATID, "#CSPAM\n"
-            "TSpam was executed successfully")
+            "TSpam executed koiralaisi...")
 
 
 @register(outgoing=True, pattern="^.wspam (.*)")
@@ -33,7 +33,7 @@ async def tmeme(e):
     if BOTLOG:
         await e.client.send_message(
             BOTLOG_CHATID, "#WSPAM\n"
-            "WSpam was executed successfully")
+            "WSpam executed koiralaisi...")
             
             
 @register(outgoing=True, pattern="^.bigspam")
@@ -49,7 +49,7 @@ async def bigspam(e):
             await e.client.send_message(
                 BOTLOG_CHATID,
                 "#BIGSPAM \n\n"
-                "Bigspam was executed successfully"
+                "Bigspam executed koiralaisi..."
                 )
 
 
@@ -61,7 +61,7 @@ async def spammer(e):
     await asyncio.wait([e.respond(spam_message) for i in range(counter)])
     if BOTLOG:
         await e.client.send_message(BOTLOG_CHATID, "#SPAM\n"
-                                    "Spam was executed successfully")
+                                    "Spam executed koiralaisi...")
 
 
 @register(outgoing=True, pattern="^.picspam")
@@ -76,7 +76,7 @@ async def tiny_pic_spam(e):
     if BOTLOG:
         await e.client.send_message(
             BOTLOG_CHATID, "#PICSPAM\n"
-            "PicSpam was executed successfully")
+            "PicSpam executed koiralaisi...")
 
 
 @register(outgoing=True, pattern="^.delayspam (.*)")
@@ -91,7 +91,7 @@ async def spammer(e):
     if BOTLOG:
         await e.client.send_message(
             BOTLOG_CHATID, "#DelaySPAM\n"
-            "DelaySpam was executed successfully")
+            "DelaySpam executed koiralaisi...")
             
 @register(outgoing=True, pattern="^.gangsta")
 async def whoizme(e):
@@ -104,34 +104,67 @@ async def whoizme(e):
         await asyncio.sleep(0.5)
         await e.edit("UNtIL ")
         await asyncio.sleep(0.2)
-        await e.edit("I")
+        await e.edit("MigH3AliEn")
         await asyncio.sleep(0.3)
-        await e.edit("ArRivE")
+        await e.edit("ArRivEs")
         await asyncio.sleep(0.3)
         await e.edit("🔥")
         await asyncio.sleep(0.3)
-        await e.edit("EVERyBOdy iZ GangSTur UNtIL I ArRivE 🔥")
+        await e.edit("EVERyBOdy iZ GangSTur UNtIL MigH3AliEn ArRivEs 🔥")
 
         
-@register(outgoing=True, pattern="^.nikal")
+@register(outgoing=True, pattern="^.chakri")
 async def whoizme(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("NikAl")
+        await e.edit("AaMi")
         await asyncio.sleep(0.3)
-        await e.edit("lAwDe")
+        await e.edit("NaAm")
         await asyncio.sleep(0.2)
-        await e.edit("PehLi")
+        await e.edit("bOlBoNa")
         await asyncio.sleep(0.5)
-        await e.edit("FuRsaT")
+        await e.edit("NaAm")
         await asyncio.sleep(0.2)
-        await e.edit("Me")
+        await e.edit("bOlLe")
         await asyncio.sleep(0.3)
-        await e.edit("NikAl")
+        await e.edit("cHaKrI")
         await asyncio.sleep(0.3)
-        await e.edit("<--")
+        await e.edit("tHaKbEnA")
         await asyncio.sleep(0.3)
-        await e.edit("NikAl lAwDe PehLi FuRsaT Me NikAL <--")
+        await e.edit("AaMi NaAm bOlBoNa NaAm bOlLe cHaKrI tHaKbEnA")
 
+@register(outgoing=True, pattern="^.vairevai")
+async def whoizme(e):
+    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+        await e.edit("AaRee")
+        await asyncio.sleep(0.3)
+        await e.edit("vAiReVaI")
+        await asyncio.sleep(0.2)
+        await e.edit("kE")
+        await asyncio.sleep(0.5)
+        await e.edit("tUmI")
+        await asyncio.sleep(0.2)
+        await e.edit("..???")
+        await asyncio.sleep(0.3)
+        await e.edit("AaRee vAiReVaI kE tUmI..???")
+
+@register(outgoing=True, pattern="^.oporadhi")
+async def whoizme(e):
+    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+        await e.edit("mAiYa")
+        await asyncio.sleep(0.3)
+        await e.edit("rE")
+        await asyncio.sleep(0.2)
+        await e.edit("mAiYa")
+        await asyncio.sleep(0.5)
+        await e.edit("rE")
+        await asyncio.sleep(0.2)
+        await e.edit("tUi")
+        await asyncio.sleep(0.3)
+        await e.edit("oPoRaDhI")
+        await asyncio.sleep(0.3)
+        await e.edit("rE")
+        await asyncio.sleep(0.3)
+        await e.edit("mAiYa rE mAiYa rE tUi oPoRaDhI rE")
 
 @register(outgoing=True, pattern="^.repeat")
 async def repeat(e):
