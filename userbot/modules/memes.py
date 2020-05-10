@@ -21,13 +21,13 @@ from userbot.modules.admin import get_user_from_event
 
 # ================= CONSTANT =================
 METOOSTR = [
-    "Me too thanks",
-    "Haha yes, me too",
-    "Same lol",
-    "Me irl",
-    "Same here",
-    "Haha yes",
-    "Me rn",
+    "হাহা আমিও ধন্যবাদ",
+    "হাহা হ্যাঁ, আমিও",
+    "একই হাহা!!",
+    "লল সত্যি বলসোস",
+    "আই এগ্রি ডুড",
+    "এক্কেরে খাঁটি কথা কইছোস",
+    "আমিও হাহা",
 ]
 NOOBSTR = [
     "`You Noob don't mess with Me!`",
