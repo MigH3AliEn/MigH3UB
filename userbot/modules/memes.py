@@ -30,13 +30,13 @@ METOOSTR = [
     "আমিও হাহা",
 ]
 NOOBSTR = [
-    "`You Noob don't mess with Me!`",
-    "`Noob Boi trying to be Famous kek`",
-    "`Some Nibbas need to open their small minds instead of their Big Mouths`",
-    "`Ah! you don't me, stay away Noob`",
-    "`I only talk with Pros. You better go away!`",
+    "`তুমি নুব আমার সাথে ঝামেলা করো না!`",
+    "`নুব ভাইয়া বিখ্যাত কেক হওয়ার চেষ্টা করছে`",
+    "`কিছু নিব্বাসকে তাদের বড় মুখগুলির পরিবর্তে তাদের ছোট্ট মন খোলা দরকার`",
+    "`আহ! তুমি আমাকে না, দূরে থাক`",
+    "`আমি কেবল পেশাদারদের সাথে কথা বলি। তুমি ভাল হয়ে যাও!`",
     "`Vairevai koto boro nOoB tumi?`",
-    "`You're a Noob and You won't get that !`",
+    "`তুই একজন নুব এবং তুই এটি পাবি না!!!`",
 ]
 ZALG_LIST = [[
     "̖",
